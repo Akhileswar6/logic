@@ -1,10 +1,10 @@
 def smallest_number(arr):
     smallest = arr[0]
 
-    for i in range(1,len(arr)):
-        if arr[i] < smallest:
-            smallest = arr[i]
+    for i in arr:
+        if i < smallest:
+            smallest = i
 
     return smallest
     
-print(smallest_number([23,3,51,21,1]))
+print(smallest_number([23,3,51,21,1,0,-2,4]))
