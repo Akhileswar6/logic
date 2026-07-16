@@ -1,6 +1,6 @@
 def second_largest_element(arr):
     if len(arr) < 2:
-        return None
+        return arr
 
     first = second = 0
     for num in arr:

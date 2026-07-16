@@ -1,8 +1,8 @@
 def sum_array(arr):
     result = 0
 
-    for i in range(len(arr)):
-        result += arr[i]
+    for i in arr:
+        result += i
 
     return result
 
