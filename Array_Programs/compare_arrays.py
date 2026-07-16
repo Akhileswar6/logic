@@ -7,4 +7,4 @@ def compare_arrays(arr1, arr2):
             return False    
     return True
 
-print(compare_arrays([1,2,3], [1,2,3,8]))
+print(compare_arrays([1,2,3], [1,2,3]))
